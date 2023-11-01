@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="page">
       <Routes>
-        <Route exact path="/" element={<Page />}>
+        <Route exact path="/strategy" element={<Page />}>
           <Route path=":lang/:country" element={<Main />} />
         </Route>
       </Routes>
