@@ -7,5 +7,26 @@ main {
 .content {
   width: 1280px;
   height: 300px;
-  border: 1px solid #fff;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.language__controller{
+  width: 408px;
+  height: 29px;
+  background: #181A1E;
+  display: flex;
+}
+.language{
+  background: #181A1E;
+  min-width: 25%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.choosen{
+  background: #101214;
 }
