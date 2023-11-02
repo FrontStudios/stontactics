@@ -15,7 +15,6 @@ const Header = () => {
            <p className={styles.navigation__title}>Информация</p>
            <p className={styles.navigation__title}>Вход</p>
         </nav>
-       </div>
 
 
        <div className={styles.pro__wrap}>
@@ -26,7 +25,7 @@ const Header = () => {
             <div className={styles.burger}>
               <span></span>
             </div>
-
+          </div>
        </div> 
     </header>
   )
