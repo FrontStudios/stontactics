@@ -8,6 +8,7 @@ const Strategy = () => {
     <section className={styles.strategy}>
         <LanguageControlls />
         <Board />
+        plug
     </section>
  )
 }
