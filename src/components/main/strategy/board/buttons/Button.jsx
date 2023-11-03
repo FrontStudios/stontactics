@@ -1,9 +1,9 @@
 import styles from './button.module.scss'
 
-const Button = ({ ico,onClick,props }) => {
+const Button = (props) => {
  return (
-    <div className={styles.button}>
-      <img src={ico} alt="" className={styles.button__img} />
+    <div className={props.className} >
+      <img src="" alt="" className={styles.button__img} />
     </div>
  )
 }
