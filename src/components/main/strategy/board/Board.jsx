@@ -43,13 +43,22 @@ const Board = () => {
        </section>
        <section className={styles.drawing__instruments}>
            <div className={styles.strategy__stages}>
-             
+             <p className={styles.stages__title}>этапы стратегии:</p>
           </div>
           <div className={styles.strategy__maps}>
-             
+             <p className={styles.map__title}>карта:</p>
+             <div className={styles.maps}>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
+             </div>
           </div>
           <div className={styles.draw__setting}>
-
+            <p className={styles.draw__title}>настройка кисти:</p>
           </div>
        </section>
     </section>
