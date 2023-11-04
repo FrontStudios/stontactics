@@ -1,5 +1,20 @@
-.button{
-    width: 40px;
-    height: 40px;
+
+.button__img{
+    width: 25px;
+    height: 25px;
     background: #181A1E;
+    transition: .3s;
+}
+.setting__button{
+    width: 40px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s;
+    background: #181A1E;
+}
+.setting__button:hover{
+ border-radius: 10px;
 }
