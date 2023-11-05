@@ -26,6 +26,12 @@ import forward from '../../../../img/icons/Vector (Stroke).svg'
 import trash from '../../../../img/icons/Subtract-5.svg'
 import axis from  '../../../../img/icons/Vector-3.svg'
 import folder from '../../../../img/icons/Subtract-4.svg'
+import brushOne from '../../../../img/icons/burshOne.svg'
+import brushTwo from '../../../../img/icons/BrushTwo.svg'
+import brushThree from '../../../../img/icons/BrushThree.svg'
+import brushFour from '../../../../img/icons/brushFour.svg'
+import brushFive from '../../../../img/icons/brushFive.svg'
+import brushSix from '../../../../img/icons/brushSix.svg'
 
 
 const Board = () => {
@@ -33,19 +39,19 @@ const Board = () => {
     <section className={styles.board}>
       <section className={styles.map__instruments}>
         <div className={styles.map__wrapper}>
-         <Button ico ={pencil}  />
-         <Button ico ={eraser} />
-         <Button ico ={dialog} />
-         <Button ico ={image} />
-         <Button ico ={video} />
-         <Button ico ={warning} />
-         <Button ico ={shield} />
-         <Button ico ={bomb} />
-         <Button ico ={location} />
-         <Button ico ={scope} />
-         <Button ico ={star} />
-         <Button ico ={flag} />
-         <Button ico ={clock} />
+         <Button ico ={pencil}/>
+         <Button ico ={eraser}/>
+         <Button ico ={dialog}/>
+         <Button ico ={image}/>
+         <Button ico ={video}/>
+         <Button ico ={warning}/>
+         <Button ico ={shield}/>
+         <Button ico ={bomb}/>
+         <Button ico ={location}/>
+         <Button ico ={scope}/>
+         <Button ico ={star}/>
+         <Button ico ={flag}/>
+         <Button ico ={clock}/>
         </div>
       </section>
 
@@ -92,12 +98,12 @@ const Board = () => {
             <p className={styles.draw__title}>настройка кисти:</p>
             
             <div className={styles.line__types}>
-            <Button/>
-            <Button/>
-            <Button/>
-            <Button/>
-            <Button/>
-            <Button/>
+            <Button ico={brushOne}/>
+            <Button ico={brushTwo}/>
+            <Button ico={brushThree}/>
+            <Button ico={brushFour}/>
+            <Button ico={brushFive}/>
+            <Button ico={brushSix}/>
             </div>
           </div>
        </section>
