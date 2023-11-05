@@ -33,19 +33,19 @@ const Board = () => {
     <section className={styles.board}>
       <section className={styles.map__instruments}>
         <div className={styles.map__wrapper}>
-         <Button className = {styles.setting__button} ico = {pencil}  />
-         <Button className = {styles.setting__button} ico = {eraser} />
-         <Button className = {styles.setting__button} ico = {dialog} />
-         <Button className = {styles.setting__button} ico = {image} />
-         <Button className = {styles.setting__button} ico = {video} />
-         <Button className = {styles.setting__button} ico = {warning} />
-         <Button className = {styles.setting__button} ico = {shield} />
-         <Button className = {styles.setting__button} ico = {bomb} />
-         <Button className = {styles.setting__button} ico = {location} />
-         <Button className = {styles.setting__button} ico = {scope} />
-         <Button className = {styles.setting__button} ico = {star} />
-         <Button className = {styles.setting__button} ico = {flag} />
-         <Button className = {styles.setting__button} ico = {clock} />
+         <Button ico ={pencil}  />
+         <Button ico ={eraser} />
+         <Button ico ={dialog} />
+         <Button ico ={image} />
+         <Button ico ={video} />
+         <Button ico ={warning} />
+         <Button ico ={shield} />
+         <Button ico ={bomb} />
+         <Button ico ={location} />
+         <Button ico ={scope} />
+         <Button ico ={star} />
+         <Button ico ={flag} />
+         <Button ico ={clock} />
         </div>
       </section>
 
@@ -54,19 +54,19 @@ const Board = () => {
         </section> 
        <section className={styles.other__instruments}>
          <div className={styles.other__wrap}>
-          <Button ico = {fullScreen} />
-          <Button ico = {back} />
-          <Button ico = {forward} />
-          <Button ico = {trash} />
-          <Button ico = {axis} />
-          <Button ico = {folder} />
+          <Button ico ={fullScreen} />
+          <Button ico ={back} />
+          <Button ico ={forward} />
+          <Button ico ={trash} />
+          <Button ico ={axis} />
+          <Button ico ={folder} />
          </div>
        </section>
        <section className={styles.drawing__instruments}>
            <div className={styles.strategy__stages}>
              <p className={styles.stages__title}>этапы стратегии:</p>
               <div className={styles.stages}>
-                 <StrategyController number = "1" status = {styles.first} />
+                 <StrategyController number = "1" status ={styles.first} />
                  <StrategyController number = "2" />
                  <StrategyController number = "3" />
                  <StrategyController number = "4" />
@@ -79,13 +79,13 @@ const Board = () => {
           <div className={styles.strategy__maps}>
              <p className={styles.map__title}>карта:</p>
              <div className={styles.maps}>
-              <MapsController map = {styles.rust} mapName = "rust"  />
-              <MapsController map = {styles.province} mapName = "province"  />
-              <MapsController map = {styles.sandstone} mapName = "sandstone" />
-              <MapsController map = {styles.sakura} mapName = "sakura"  />
-              <MapsController map = {styles.dune} mapName = "dune"  />
-              <MapsController map = {styles.breeze} mapName = "breeze"  />
-              <MapsController map = {styles.zone} mapName = "zone 9 "  />
+              <MapsController map ={styles.rust} mapName = "rust"  />
+              <MapsController map ={styles.province} mapName = "province"  />
+              <MapsController map ={styles.sandstone} mapName = "sandstone" />
+              <MapsController map ={styles.sakura} mapName = "sakura"  />
+              <MapsController map ={styles.dune} mapName = "dune"  />
+              <MapsController map ={styles.breeze} mapName = "breeze"  />
+              <MapsController map ={styles.zone} mapName = "zone 9 "  />
              </div>
           </div>
           <div className={styles.draw__setting}>
