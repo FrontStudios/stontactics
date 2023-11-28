@@ -1,9 +1,16 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useNavigate } from 'react-router-dom'
 
 import Main from '../main/Main';
 import Page from '../page/Page';
+import { useEffect } from 'react';
 
 const App = () => {
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    navigate("/strategy")
+  }, [])
+
   return (
     <div className="page">
       <Routes>
