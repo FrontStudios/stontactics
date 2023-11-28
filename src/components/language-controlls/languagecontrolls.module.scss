@@ -1,0 +1,27 @@
+.language__controller {
+  width: 408px;
+  height: 29px;
+  background: #181a1e;
+  display: flex;
+
+  .language {
+    background: #181a1e;
+    min-width: 25%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &.choosen {
+      background: #101214;
+    }
+    
+    &:hover {
+      background: #dbff00;
+    }
+  }
+}

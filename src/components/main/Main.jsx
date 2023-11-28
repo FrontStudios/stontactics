@@ -1,6 +1,6 @@
 import styles from './main.module.scss'
 
-import Strategy from './strategy/Strategy'
+import Strategy from '../strategy/Strategy'
 
 const Main = () => {
   return (
