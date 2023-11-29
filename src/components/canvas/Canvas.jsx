@@ -62,6 +62,7 @@ import styles from "./canvas.module.scss";
 import buttonStyles from "../button/button.module.scss";
 import { useDispatch, useSelector } from "react-redux";
 import DrawText from "./DrawText";
+import { Html } from "react-konva-utils";
 
 const elementImages = {
   warning: warning,
@@ -86,6 +87,10 @@ const Canvas = () => {
   const [elements, setElements] = useState([]);
   const [history, setHistory] = useState([elements]);
   const [currentStep, setCurrentStep] = useState(0);
+
+  const [selectedTextId, setSelectedTextId] = useState(null);
+  const [textValue, setTextValue] = useState("");
+  const [showTextInput, setShowTextInput] = useState(true);
 
   const [selectedMap, setSelectedMap] = useState("rust");
 
@@ -157,6 +162,12 @@ const Canvas = () => {
   }, [tool]);
 
   const handleMouseDown = (e) => {
+    const clickedOnEmpty = e.target === e.target.getStage();
+    if (clickedOnEmpty) {
+      setSelectedTextId(null);
+    } else {
+      return;
+    }
     if (!tool) return;
 
     setIsDragable(false);
@@ -183,21 +194,42 @@ const Canvas = () => {
       ]);
     } else if (tool === "text") {
       const newValue = window.prompt("Enter new text value");
-      setElements([
-        ...elements,
-        {
-          tool,
-          id: elements.length,
-          name: tool,
-          x: pos.x,
-          y: pos.y,
-          text: newValue,
-          fill: "#e7e7e7",
-          width: 50,
-          fontSize: 24,
-        },
-      ]);
-      setTool(null);
+      // setElements([
+      //   ...elements,
+      //   {
+      //     tool,
+      //     id: elements.length,
+      //     name: tool,
+      //     x: pos.x,
+      //     y: pos.y,
+      //     text: newValue,
+      //     fill: "#e7e7e7",
+      //     width: null,
+      //     fontSize: 18,
+      //   },
+      // ]);
+      // const newHistory = history.slice(0, currentStep + 1);
+      // newHistory.push([
+      //   ...elements,
+      //   {
+      //     tool,
+      //     id: elements.length,
+      //     name: tool,
+      //     x: pos.x,
+      //     y: pos.y,
+      //     text: newValue,
+      //     fill: "#e7e7e7",
+      //     width: null,
+      //     height: null,
+      //     fontSize: 18,
+      //   },
+      // ]);
+      // setHistory(newHistory);
+      // setCurrentStep(newHistory.length - 1);
+      // setTimeout(() => {
+      //   setTool(null);
+      //   isDrawing.current = false;
+      // }, 100);
     } else if (tool === "arrow") {
       setElements([
         ...elements,
@@ -330,6 +362,19 @@ const Canvas = () => {
             }
           : el
       );
+    } else if (name === "text") {
+      updatedElements = elements.map((el) =>
+        el.id === id
+          ? {
+              ...el,
+              x: e.target.x(),
+              y: e.target.y(),
+              width: e.target.width(),
+              height: e.target.height(),
+              rotation: e.target.rotation(),
+            }
+          : el
+      );
     } else {
       updatedElements = elements.map((el) =>
         el.id === id ? { ...el, x: e.target.x(), y: e.target.y() } : el
@@ -395,6 +440,29 @@ const Canvas = () => {
     setCurrentStep(newHistory.length - 1);
   };
 
+  const addText = () => {
+    const newHistory = history.slice(0, currentStep + 1);
+    newHistory.push([
+      ...elements,
+      {
+        tool: "text",
+        id: elements.length,
+        name: "text",
+        x: 415,
+        y: 285,
+        text: textValue,
+        fill: "#e7e7e7",
+        width: null,
+        height: null,
+        fontSize: 18,
+      },
+    ]);
+    setHistory(newHistory);
+    setCurrentStep(newHistory.length - 1);
+    setShowTextInput(false)
+    setTextValue("")
+  };
+
   const deleteAll = () => {
     // setElements([]);
     const newHistory = history.slice(0, currentStep + 1);
@@ -453,8 +521,10 @@ const Canvas = () => {
   };
 
   const changePart = (partName) => {
-    dispatch(setMatchPart({ partName: part, partElements: elements }));
     setPart(partName);
+    dispatch(setMatchPart({ partName: part, partElements: elements }));
+    setHistory([parts[partName]]);
+    setCurrentStep(0);
   };
 
   const handleFullscreen = () => {
@@ -533,7 +603,7 @@ const Canvas = () => {
               />
               <Button
                 ico={dialog}
-                onClick={() => setToolFunc("text")}
+                onClick={() => setShowTextInput(prev => !prev)}
                 secondClass={tool === "text" && "active"}
               />
               <Button ico={image} />
@@ -565,11 +635,19 @@ const Canvas = () => {
               !tool && styles.canvas__drag
             )}
           >
+            {showTextInput && <div className={styles.text__input}>
+              <div className={styles.text__input_container}>
+                <input type="text" placeholder="type.." value={textValue} onChange={(e) => setTextValue(e.target.value)} />
+                <button onClick={addText}>Add</button>
+              </div>
+            </div>}
             <TransformWrapper
-              disabled={tool || isDragable}
+              disabled={tool || isDragable || !!selectedTextId}
               wheel={{ disabled: !shiftPressed }}
             >
-              <TransformComponent>
+              <TransformComponent
+                disabled={tool || isDragable || !!selectedTextId}
+              >
                 <Map mapName={selectedMap} />
                 <Stage
                   pixelRatio={window.devicePixelRatio}
@@ -631,11 +709,19 @@ const Canvas = () => {
                           return (
                             <DrawText
                               element={element}
+                              id={element.id}
                               i={i}
                               isDragable={isDragable}
                               elements={elements}
                               setElements={setElements}
                               handleObjectDragEnd={handleObjectDragEnd}
+                              setSelectedTextId={(id) => {
+                                if (tool) {
+                                  return;
+                                }
+                                setSelectedTextId(id);
+                              }}
+                              selectedTextId={selectedTextId}
                             />
                           );
                         } else if (element.tool === "arrow") {
