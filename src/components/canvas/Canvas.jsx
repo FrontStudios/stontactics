@@ -90,7 +90,7 @@ const Canvas = () => {
 
   const [selectedTextId, setSelectedTextId] = useState(null);
   const [textValue, setTextValue] = useState("");
-  const [showTextInput, setShowTextInput] = useState(true);
+  const [showTextInput, setShowTextInput] = useState(false);
 
   const [selectedMap, setSelectedMap] = useState("rust");
 
