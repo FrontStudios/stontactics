@@ -1,9 +1,9 @@
-<svg width="772.0000000000001" height="586" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="772" height="586" xmlns="http://www.w3.org/2000/svg" fill="none">
 
  <g>
   <title>Layer 1</title>
-  <path id="svg_1" fill="#22262F" d="m69.22202,56.5l0,12l-62,0l0,26.5l-5.5,0l0,34.5l5.5,0l0,35.5l52,0l0,-12.5l47.5,0l0,11l0,1l0,0.5l-45.5,0l0,38.5l-12.5,0l0,56l12.5,0l0,66.5l-50.5,0l0,132.5l28,0l0,2.5l36,0l0,-2.5l25,0l0,-18l36.5,0l0,-27l31.5,0l0,27l2,0l0,41l131.5,0l0,67.5l83.5,0l0,-22.5l88,0l0,-20.5l132.5,0l0,78.5l82.5,0l0,-66l83.5,0l0,-106.5l-105,0l0,-79l-17.5,0l0,-48.5l14.5,0l0,-29l-85.5,0l0,-35.5l38.5,0l0,-132l-114,0l0,-87l-155,0l0,7l-46,0l0,57.5l-45.5,0l0,33l-49.5,0l0,-17.5l-45,0l0,23l-39,0l0,-47.5l-53,0zm83,228l21,0l0,18.5l33,37l8.5,0l0,94.5l47,0l0,-115.5l78,0l0,-66.5l-65,0l0,55.5l-58,0l0,-57.5l-64.5,0l0,34zm290,4.5l0,-24.5l14.5,0l0,49.5l-31.5,0l0,87l-40.5,0l0,-38.5l-25,0l0,-73.5l82.5,0zm-82.5,-24.5l0,12.5l6,0l0,-12.5l-6,0zm-74.5,-64l0,-39.5l-2.5,0l0,-3.5l22,0l0,3.5l37.5,0l0,-47l37.5,0l0,47l2,0l0,3.5l-39.5,0l0,36l-57,0zm146.5,-34l0,12.5l13.5,0l0,-14.5l-16,0l0,2l2.5,0zm-221,-24.5l-37.5,0l0,21.5l0,1.5l0,44l31,0l0,-44.5l6.5,0l0,-22.5zm-137.5,-50.5l0,9l9,0l0,-9l-9,0zm474,82.5l0,24l18,0l0,-24l-18,0zm-15,110.5l0,-10.5l17.5,0l0,10.5l-17.5,0zm-60,111l21.5,0l0,4l115,0l0,56l-136.5,0l0,-60z" clip-rule="evenodd" fill-rule="evenodd"/>
-  <path stroke="#1F2228" id="svg_2" fill="none" d="m68.5,56.5l0,12l-62,0l0,26.5l-5.5,0l0,34.5l5.5,0l0,35.5l52,0l2,0l45.5,0l31.5,0l0,44l-35,0l0,71l-13,0l0,61l-43,0l0,-15l-36.5,0l0,132.5l28,0l0,2.5l36,0l0,-2.5l25,0l0,-18l36.5,0l0,-27l31.5,0l0,27l2,0l0,41l89.5,0l0,-47l-44.5,0l0,-94.5l-8.5,0l-33,-37l0,-18.5l-21,0l0,-34l64.5,0l0,37l58,0l0,-35l65,0l0,66.5l20,0l0,-30l82.5,0l0,-24.5l14.5,0l0,14l37,0l0,-14l0,-1.5l37,0l1.5,0l0,-6l2,0l0,-31.5l-2,0l0,-26.5l0,-2l15,0l0,-23l18,0l23,0l0,-41.5l-111.5,0l-12,-12.5l0,-34.5l-14.5,0l0,-74l-15.5,0l0,-10.5l-87.5,0l0,7l0,48l-18.5,0l0,29.5l-26,0l-15.5,0l0,-20l-31.5,0l0,33l-49.5,0l0,-17.5l-45,0l0,23l-39,0l0,-47.5l-53,0zm463,228l17.5,0l99,0l0,48.5l17.5,0l0,79l105,0l0,106.5l-83.5,0l0,66l-82.5,0l0,-78.5l3.5,0l0,-50.5l0,-56l-76.5,0l0,-115zm-359,-142.5l37.5,0l0,22.5l-6.5,0l0,44.5l-31,0l0,-44l0,-1.5l0,-21.5zm112,58.5l0,-39.5l-2.5,0l0,-3.5l22,0l0,3.5l37.5,0l0,-47l37.5,0l0,47l2,0l0,3.5l-39.5,0l0,36l-57,0zm146.5,-34l0,12.5l13.5,0l0,-14.5l-16,0l0,2l2.5,0zm-72,110.5l0,-12.5l6,0l0,12.5l-6,0zm-286.5,-185.5l0,9l9,0l0,-9l-9,0z" clip-rule="evenodd" fill-rule="evenodd"/>
+  <path id="svg_1" fill="#22262F" d="m68.5,56.5l0,12l-62,0l0,26.5l-5.5,0l0,34.5l5.5,0l0,35.5l52,0l0,-12.5l47.5,0l0,11l0,1l0,0.5l-45.5,0l0,38.5l-12.5,0l0,56l12.5,0l0,66.5l-50.5,0l0,132.5l28,0l0,2.5l36,0l0,-2.5l25,0l0,-18l36.5,0l0,-27l31.5,0l0,27l2,0l0,41l131.5,0l0,67.5l83.5,0l0,-22.5l88,0l0,-20.5l132.5,0l0,78.5l82.5,0l0,-66l83.5,0l0,-106.5l-105,0l0,-79l-17.5,0l0,-48.5l14.5,0l0,-29l-85.5,0l0,-35.5l38.5,0l0,-132l-114,0l0,-87l-155,0l0,7l-46,0l0,57.5l-45.5,0l0,33l-49.5,0l0,-17.5l-45,0l0,23l-39,0l0,-47.5l-53,0zm83,228l21,0l0,18.5l33,37l8.5,0l0,94.5l47,0l0,-115.5l78,0l0,-66.5l-65,0l0,55.5l-58,0l0,-57.5l-64.5,0l0,34zm290,4.5l0,-24.5l14.5,0l0,49.5l-31.5,0l0,87l-40.5,0l0,-38.5l-25,0l0,-73.5l82.5,0zm-82.5,-24.5l0,12.5l6,0l0,-12.5l-6,0zm-74.5,-64l0,-39.5l-2.5,0l0,-3.5l22,0l0,3.5l37.5,0l0,-47l37.5,0l0,47l2,0l0,3.5l-39.5,0l0,36l-57,0zm146.5,-34l0,12.5l13.5,0l0,-14.5l-16,0l0,2l2.5,0zm-221,-24.5l-37.5,0l0,21.5l0,1.5l0,44l31,0l0,-44.5l6.5,0l0,-22.5zm-137.5,-50.5l0,9l9,0l0,-9l-9,0zm474,82.5l0,24l18,0l0,-24l-18,0zm-15,110.5l0,-10.5l17.5,0l0,10.5l-17.5,0zm-60,111l21.5,0l0,4l115,0l0,56l-136.5,0l0,-60z" clip-rule="evenodd" fill-rule="evenodd"/>
+  <path id="svg_2" fill="#1F2228" d="m68.5,56.5l0,12l-62,0l0,26.5l-5.5,0l0,34.5l5.5,0l0,35.5l52,0l2,0l45.5,0l31.5,0l0,44l-35,0l0,71l-13,0l0,61l-43,0l0,-15l-36.5,0l0,132.5l28,0l0,2.5l36,0l0,-2.5l25,0l0,-18l36.5,0l0,-27l31.5,0l0,27l2,0l0,41l89.5,0l0,-47l-44.5,0l0,-94.5l-8.5,0l-33,-37l0,-18.5l-21,0l0,-34l64.5,0l0,37l58,0l0,-35l65,0l0,66.5l20,0l0,-30l82.5,0l0,-24.5l14.5,0l0,14l37,0l0,-14l0,-1.5l37,0l1.5,0l0,-6l2,0l0,-31.5l-2,0l0,-26.5l0,-2l15,0l0,-23l18,0l23,0l0,-41.5l-111.5,0l-12,-12.5l0,-34.5l-14.5,0l0,-74l-15.5,0l0,-10.5l-87.5,0l0,7l0,48l-18.5,0l0,29.5l-26,0l-15.5,0l0,-20l-31.5,0l0,33l-49.5,0l0,-17.5l-45,0l0,23l-39,0l0,-47.5l-53,0zm463,228l17.5,0l99,0l0,48.5l17.5,0l0,79l105,0l0,106.5l-83.5,0l0,66l-82.5,0l0,-78.5l3.5,0l0,-50.5l0,-56l-76.5,0l0,-115zm-359,-142.5l37.5,0l0,22.5l-6.5,0l0,44.5l-31,0l0,-44l0,-1.5l0,-21.5zm112,58.5l0,-39.5l-2.5,0l0,-3.5l22,0l0,3.5l37.5,0l0,-47l37.5,0l0,47l2,0l0,3.5l-39.5,0l0,36l-57,0zm146.5,-34l0,12.5l13.5,0l0,-14.5l-16,0l0,2l2.5,0zm-72,110.5l0,-12.5l6,0l0,12.5l-6,0zm-286.5,-185.5l0,9l9,0l0,-9l-9,0z" clip-rule="evenodd" fill-rule="evenodd"/>
   <path id="svg_3" fill="#373D4B" d="m167.5,366.5l7,0l0,8l-7,0l0,-8z"/>
   <path id="svg_4" fill="#373D4B" d="m126.5,401.5l9,0l0,9l-9,0l0,-9z"/>
   <path id="svg_5" fill="#373D4B" d="m216.5,434.5l9,0l0,9l-9,0l0,-9z"/>
@@ -29,7 +29,7 @@
   <path id="svg_25" fill="#373D4B" d="m427.5,153.5l9,0l0,9l-9,0l0,-9z"/>
   <path id="svg_26" fill="#373D4B" d="m424,204.5l10,0l0,7l-10,0l0,-7z"/>
   <path id="svg_27" fill="#373D4B" d="m757.5,512.5l12,0l0,6l-12,0l0,-6z"/>
-  <path id="svg_28" fill="#373D4B" d="m90.5,295.5l18,0l0,48l-18,0l0,-48z"/>
+  <path stroke="null" id="svg_28" fill="#373D4B" d="m90.5,295.5l18,0l0,48l-18,0l0,-48z"/>
   <path id="svg_29" fill="#373D4B" d="m10.5,429.5l17,0l0,8l-17,0l0,-8z"/>
   <path id="svg_30" fill="#373D4B" d="m212.5,167l-8.5,0l0,11.5l5.5,0l0,-6.5l3,0l0,-5z"/>
   <path id="svg_31" fill-opacity="0.6" fill="#373D4B" d="m381.5,43.5l8,0l0,9l-8,0l0,-9z"/>
@@ -117,51 +117,57 @@
   <path id="svg_113" fill-opacity="0.2" fill="#7000FF" d="m431.5,87.5l-81,0l0,-62l81,0l0,62z"/>
   <path id="svg_114" fill-opacity="0.08" fill="white" d="m352.5,85.5l77,0l0,-58l-77,0l0,58zm79,2l0,-62l-81,0l0,62l81,0z" clip-rule="evenodd" fill-rule="evenodd"/>
   <path id="svg_115" fill="white" d="m386.561,63.117l-1.479,3.915l-4.582,0l7.946,-20.532l4.756,0l7.83,20.532l-4.611,0l-1.421,-3.915l-8.439,0zm1.218,-3.712l5.974,0l-2.958,-8.439l-3.016,8.439z"/>
-  <rect id="svg_116" height="85" width="33" y="2.33333" x="464.99997" stroke="#000" fill="#fff"/>
-  <rect id="svg_118" height="27.52668" width="150.41367" y="87.78577" x="465.03333" stroke="#000" fill="#fff"/>
-  <rect id="svg_119" height="86.45827" width="14.58332" y="2.1387" x="450.11056" stroke="#000" fill="#fff"/>
-  <rect id="svg_120" height="9.37499" width="13.54166" y="1.61787" x="435.00641" stroke="#000" fill="#fff"/>
-  <rect id="svg_122" height="15.10416" width="140.10407" y="114.63862" x="475.63138" stroke="#000" fill="#fff"/>
-  <rect id="svg_123" height="63.54162" width="25.52082" y="130.78445" x="590.21463" stroke="#000" fill="#fff"/>
-  <rect id="svg_124" height="4.04177" width="9.19852" y="115.68365" x="465.83854" stroke="#000" fill="#fff"/>
-  <rect id="svg_125" height="1.39371" width="7.94417" y="120.42228" x="466.67477" stroke="#000" fill="#fff"/>
-  <rect id="svg_126" height="3.20554" width="3.9024" y="122.65223" x="470.85591" stroke="#000" fill="#fff"/>
-  <rect id="svg_127" height="2.78743" width="3.48429" y="126.83337" x="471.97089" stroke="#000" fill="#fff"/>
-  <rect id="svg_128" height="3.06617" width="2.64806" y="122.09474" x="467.78974" stroke="#000" fill="#fff"/>
-  <rect id="svg_129" height="19.13357" width="59.20578" y="34.07581" x="381.14801" stroke="#000" fill="#fff"/>
-  <rect id="svg_130" height="25.63177" width="50.54152" y="193.64259" x="565.62455" stroke="#000" fill="#fff"/>
-  <rect id="svg_133" height="81.94946" width="15.88448" y="199.77978" x="549.37906" stroke="#000" fill="#fff"/>
-  <rect id="svg_134" height="63.53791" width="9.74729" y="219.27436" x="565.62455" stroke="#000" fill="#fff"/>
-  <rect id="svg_135" height="25.27076" width="85.92058" y="256.81949" x="575.37184" stroke="#000" fill="#fff"/>
-  <rect id="svg_136" height="76.17329" width="14.44043" y="198.69674" x="533.13357" stroke="#000" fill="#fff"/>
-  <rect id="svg_137" height="60.28881" width="22.02166" y="133.35378" x="564.90252" stroke="#000" fill="#fff"/>
-  <rect id="svg_138" height="11.19134" width="25.27076" y="283.17328" x="620.8592" stroke="#000" fill="#fff"/>
-  <rect id="svg_140" height="16.24549" width="16.96751" y="262.95667" x="511.83393" stroke="#000" fill="#fff"/>
-  <rect id="svg_141" height="63.1769" width="72.56318" y="278.48014" x="458.40433" stroke="#000" fill="#fff"/>
-  <rect id="svg_142" height="79.06137" width="32.49097" y="315.30324" x="425.07103" stroke="#000" fill="#fff"/>
-  <rect id="svg_143" height="54.15162" width="58.12274" y="341.29602" x="458.28402" stroke="#000" fill="#fff"/>
-  <rect id="svg_157" height="3.2491" width="22.38267" y="395.08664" x="494.02409" stroke="#1F2228" fill="none"/>
-  <rect id="svg_158" height="17.29958" width="45.99155" y="461.43025" x="302.3262" stroke="#1F2228" fill="none"/>
-  <rect id="svg_159" height="40.92333" width="5.84619" y="501.20497" x="301.41455" stroke="#1F2228" fill="none"/>
-  <rect id="svg_160" height="18.12319" width="2.04617" y="480.15868" x="301.70686" stroke="#261d1e" fill="none"/>
-  <rect id="svg_161" height="42.67719" width="5.84619" y="443.61999" x="377.12272" stroke="#261d1e" fill="none"/>
-  <rect id="svg_162" height="24.554" width="9.93852" y="448.00463" x="387.06124" stroke="#261d1e" fill="none"/>
-  <rect id="svg_163" height="41.50795" width="5.55388" y="507.05116" x="377.99965" stroke="#261d1e" fill="none"/>
-  <rect id="svg_164" height="39.46179" width="30.98481" y="320.26537" x="326.55317" stroke="#261d1e" fill="none"/>
-  <rect id="svg_165" height="9.3539" width="8.47698" y="434.5584" x="216.64479" stroke="#261d1e" fill="none"/>
-  <rect id="svg_166" height="48.81569" width="18.12319" y="294.83445" x="90.65939" stroke="#261d1e" fill="none"/>
-  <rect id="svg_167" height="12.86162" width="41.80026" y="327.57311" x="47.7873" stroke="#261d1e" fill="none"/>
-  <rect id="svg_168" height="15.78471" width="9.64621" y="327.2808" x="38.43339" stroke="#261d1e" fill="none"/>
-  <rect stroke="#261d1e" id="svg_169" height="8.47698" width="6.43081" y="326.98849" x="30.83335" fill="none"/>
-  <rect id="svg_172" height="36.53869" width="23.38476" y="286.64978" x="62.40278" stroke="#ff0000" fill="none"/>
-  <rect id="svg_174" height="3.2154" width="8.76929" y="323.77309" x="69.4182" fill="#ff0000"/>
-  <rect id="svg_175" height="11.69238" width="4.67695" y="166.80288" x="204.75751" fill="#ff0000"/>
-  <rect id="svg_176" height="6.43081" width="2.9231" y="166.21826" x="210.11653" stroke="#1F2228" fill="none"/>
-  <rect id="svg_177" height="8.18467" width="5.84619" y="87.87931" x="293.13244" stroke="#1F2228" fill="none"/>
-  <rect id="svg_178" height="6.43081" width="9.64621" y="110.67945" x="402.45623" stroke="#1F2228" fill="none"/>
-  <rect id="svg_179" height="7.60005" width="16.66164" y="132.31035" x="509.73383" stroke="#1F2228" fill="none"/>
-  <rect id="svg_180" height="8.76929" width="8.18467" y="140.20271" x="518.2108" stroke="#1F2228" fill="none"/>
-  <rect id="svg_181" height="10.81545" width="10.23083" y="514.06659" x="460.82065" stroke="#1F2228" fill="none"/>
-  <rect id="svg_182" height="8.76929" width="9.93852" y="456.77392" x="471.6361" stroke="#1F2228" fill="none"/>
+  <rect id="svg_118" height="89.49764" width="40.18261" y="0.40833" x="463.68739" className="map-rect"/>
+  <rect id="svg_119" height="85.38805" width="15.06848" y="0.86495" x="449.98877" className="map-rect"/>
+  <rect id="svg_120" height="10.95889" width="16.89496" y="1.32157" x="434.92029" className="map-rect"/>
+  <rect id="svg_121" height="19.63469" width="60.27392" y="33.74163" x="381.9523" className="map-rect"/>
+  <rect id="svg_122" height="12.78538" width="150.22818" y="89.04347" x="465.05725" className="map-rect"/>
+  <rect id="svg_124" height="27.39724" width="99.08667" y="102.74209" x="474.64628" className="map-rect"/>
+  <rect id="svg_125" height="17.35158" width="8.67579" y="101.82885" x="465.97049" className="map-rect"/>
+  <rect id="svg_126" height="5.11363" width="9.65908" y="118.61853" x="465.84144" className="map-rect"/>
+  <rect id="svg_127" height="3.97727" width="8.52272" y="124.58443" x="467.54598" className="map-rect"/>
+  <rect id="svg_128" height="2.27273" width="5.11363" y="128.5617" x="472.65962" className="map-rect"/>
+  <rect id="svg_130" height="27.24359" width="17.62821" y="102.75324" x="571.84746" className="map-rect"/>
+  <rect id="svg_131" height="93.58975" width="26.60257" y="101.15068" x="588.83464" className="map-rect"/>
+  <rect id="svg_133" height="25.96154" width="50.32052" y="192.53246" x="565.11669" className="map-rect"/>
+  <rect id="svg_134" height="62.82052" width="26.60257" y="129.39143" x="565.11669" className="map-rect"/>
+  <rect id="svg_135" height="19.23077" width="15.38462" y="198.69341" x="550.05259" className="map-rect"/>
+  <rect id="svg_136" height="39.42308" width="25.64103" y="217.28316" x="550.3731" className="map-rect"/>
+  <rect id="svg_137" height="74.67949" width="17.30769" y="198.69341" x="533.06541" className="map-rect"/>
+  <rect id="svg_138" height="27.5641" width="112.17949" y="256.38572" x="550.05259" className="map-rect"/>
+  <rect id="svg_139" height="16.66667" width="27.5641" y="283.98543" x="619.92439" className="map-rect"/>
+  <rect id="svg_140" height="17.62821" width="40.38462" y="262.51107" x="492.8826" className="map-rect"/>
+  <rect id="svg_142" height="36.21795" width="75.32052" y="278.53671" x="456.34414" className="map-rect"/>
+  <rect id="svg_143" height="27.24359" width="106.41026" y="314.82591" x="425.25439" className="map-rect"/>
+  <rect id="svg_144" height="53.84616" width="107.05129" y="341.10797" x="425.25439" className="map-rect"/>
+  <rect id="svg_146" height="3.85604" width="39.58866" y="395.16713" x="493.53911" className="map-rect"/>
+  <rect id="svg_147" height="17.48071" width="49.10022" y="461.80517" x="300.73721" className="map-rect"/>
+  <rect id="svg_148" height="42.93056" width="8.48328" y="500.65117" x="300.73721" className="map-rect"/>
+  <rect id="svg_149" height="17.99484" width="3.59897" y="480.08564" x="301.25134" className="map-rect"/>
+  <rect id="svg_150" height="42.93056" width="5.91259" y="444.09595" x="377.6009" className="map-rect"/>
+  <rect id="svg_152" height="40.61693" width="7.71208" y="507.33497" x="376.82969" className="map-rect"/>
+  <rect id="svg_154" height="25.96399" width="11.05398" y="447.92343" x="386.34125" className="map-rect"/>
+  <rect id="svg_155" height="8.74035" width="10.79691" y="456.66378" x="471.43115" className="map-rect"/>
+  <rect id="svg_156" height="12.08225" width="11.05398" y="513.01905" x="460.63425" className="map-rect"/>
+  <rect id="svg_157" height="40.1028" width="41.13107" y="319.78868" x="316.6755" className="map-rect"/>
+  <rect id="svg_158" height="8.74035" width="9.51156" y="435.24137" x="216.8755" className="map-rect"/>
+  <rect id="svg_159" height="8.48328" width="7.45501" y="366.6039" x="167.51822" className="map-rect"/>
+  <rect id="svg_160" height="9.51156" width="9.25449" y="401.30824" x="126.64421" className="map-rect"/>
+  <rect id="svg_161" height="7.96915" width="17.22364" y="429.32878" x="10.16328" className="map-rect"/>
+  <rect id="svg_163" height="40.35986" width="26.7352" y="286.31257" x="62.09126" className="map-rect"/>
+  <rect id="svg_164" height="14.39588" width="42.41642" y="326.67244" x="47.95245" className="map-rect"/>
+  <rect id="svg_166" height="8.99742" width="19.79433" y="327.44365" x="29.70054" className="map-rect"/>
+  <rect id="svg_167" height="7.71208" width="11.05398" y="335.92693" x="38.44089" className="map-rect"/>
+  <rect id="svg_168" height="10.28277" width="27.76347" y="277.82929" x="62.09126" className="map-rect"/>
+  <rect id="svg_169" height="49.10022" width="3.59897" y="277.80073" x="59.77764" className="map-rect"/>
+  <rect id="svg_171" height="48.84315" width="20.30847" y="295.05293" x="88.82645" className="map-rect"/>
+  <rect id="svg_172" height="10.79691" width="5.91259" y="167.14672" x="204.11722" className="map-rect"/>
+  <rect id="svg_173" height="7.96915" width="7.19794" y="87.68378" x="292.29196" className="map-rect"/>
+  <rect id="svg_174" height="6.6838" width="9.51156" y="111.07708" x="402.57464" className="map-rect"/>
+  <rect id="svg_175" height="7.96915" width="8.74035" y="153.77912" x="427.76742" className="map-rect"/>
+  <rect id="svg_176" height="4.88431" width="9.76863" y="206.76394" x="424.68259" className="map-rect"/>
+  <rect id="svg_177" height="9.51156" width="10.28277" y="462.06224" x="687.79775" className="map-rect"/>
+  <rect id="svg_178" height="10.79691" width="19.28019" y="129.84313" x="508.41102" className="map-rect"/>
+  <rect id="svg_179" height="6.6838" width="9.51156" y="141.41125" x="517.92258" className="map-rect"/>
  </g>
 </svg>

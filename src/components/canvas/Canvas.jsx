@@ -156,9 +156,6 @@ const Canvas = () => {
     if (!!tool) {
       setIsDragable(false);
     }
-    if (tool === "eraser") {
-      setDrawWidth(8);
-    }
   }, [tool]);
 
   const handleMouseDown = (e) => {
@@ -637,7 +634,7 @@ const Canvas = () => {
           >
             {showTextInput && <div className={styles.text__input}>
               <div className={styles.text__input_container}>
-                <input type="text" placeholder="type.." value={textValue} onChange={(e) => setTextValue(e.target.value)} />
+                <input type="text" required placeholder="type.." value={textValue} onChange={(e) => setTextValue(e.target.value)} />
                 <button onClick={addText}>Add</button>
               </div>
             </div>}
@@ -673,7 +670,7 @@ const Canvas = () => {
                           y: element.y,
                           points: element.points,
                           stroke: element.strokeColor,
-                          strokeWidth: element.drawWidth,
+                          strokeWidth: element.tool === "eraser" ? 16 : element.drawWidth,
                           tension: 0.1,
                           lineCap: "round",
                           lineJoin: "round",
@@ -699,6 +696,59 @@ const Canvas = () => {
                             dash={element.dash ? [7, 7] : false}
                           />
                         );
+                      } else if (element.tool === "arrow") {
+                        if (!element.points.lastX || !element.points.lastY) {
+                          return;
+                        }
+
+                        const attrs = {
+                          key: i,
+                          id: element.id,
+                          points: [
+                            element.points.firstX,
+                            element.points.firstY,
+                            element.points.lastX,
+                            element.points.lastY,
+                          ],
+                          fill: element.color,
+                          stroke: element.color,
+                          strokeWidth: element.drawWidth,
+                          pointerLength: element.pointerLength,
+                          pointerWidth: element.pointerWidth,
+                          lineCap: "round",
+                        };
+
+                        return element.arrowType === "pointer-stroke" ? (
+                          <Shape
+                            {...attrs}
+                            sceneFunc={sceneFunc}
+                            dash={element.isDash ? [18, 10] : false}
+                          />
+                        ) : (
+                          <Arrow
+                            {...attrs}
+                            pointerAtEnding={
+                              !(element.arrowType === "no-pointer")
+                            }
+                            dash={element.isDash ? [7, 7] : false}
+                          />
+                        );
+                      } else if (element.tool === "image") {
+                        return (
+                          <DrawImage
+                            key={i}
+                            id={element.id}
+                            name={element.name}
+                            level={element.level}
+                            playerAttrs={element.playerAttrs}
+                            x={element.x}
+                            y={element.y}
+                            file={element.file}
+                            draggable={isDragable}
+                            handleObjectDragEnd={handleObjectDragEnd}
+                            onDragMove={(e) => checkOverlap(e)}
+                          />
+                        );
                       }
                     })}
                   </Layer>
@@ -722,59 +772,6 @@ const Canvas = () => {
                                 setSelectedTextId(id);
                               }}
                               selectedTextId={selectedTextId}
-                            />
-                          );
-                        } else if (element.tool === "arrow") {
-                          if (!element.points.lastX || !element.points.lastY) {
-                            return;
-                          }
-
-                          const attrs = {
-                            key: i,
-                            id: element.id,
-                            points: [
-                              element.points.firstX,
-                              element.points.firstY,
-                              element.points.lastX,
-                              element.points.lastY,
-                            ],
-                            fill: element.color,
-                            stroke: element.color,
-                            strokeWidth: element.drawWidth,
-                            pointerLength: element.pointerLength,
-                            pointerWidth: element.pointerWidth,
-                            lineCap: "round",
-                          };
-
-                          return element.arrowType === "pointer-stroke" ? (
-                            <Shape
-                              {...attrs}
-                              sceneFunc={sceneFunc}
-                              dash={element.isDash ? [18, 10] : false}
-                            />
-                          ) : (
-                            <Arrow
-                              {...attrs}
-                              pointerAtEnding={
-                                !(element.arrowType === "no-pointer")
-                              }
-                              dash={element.isDash ? [7, 7] : false}
-                            />
-                          );
-                        } else if (element.tool === "image") {
-                          return (
-                            <DrawImage
-                              key={i}
-                              id={element.id}
-                              name={element.name}
-                              level={element.level}
-                              playerAttrs={element.playerAttrs}
-                              x={element.x}
-                              y={element.y}
-                              file={element.file}
-                              draggable={isDragable}
-                              handleObjectDragEnd={handleObjectDragEnd}
-                              onDragMove={(e) => checkOverlap(e)}
                             />
                           );
                         }
