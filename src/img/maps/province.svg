@@ -202,7 +202,7 @@
   <rect id="svg_196" height="7.46606" width="30.54298" y="481.12899" x="343.74236" className="map-rect"/>
   <rect id="svg_197" height="7.91855" width="34.38913" y="487.91632" x="345.32607" className="map-rect"/>
   <rect id="svg_198" height="10.40724" width="6.56108" y="477.73533" x="372.02289" className="map-rect"/>
-  <rect stroke="#000" id="svg_199" height="6.78733" width="33.25791" y="495.38238" x="348.26724" fill="#ff0000"/>
+  <rect id="svg_199" height="6.78733" width="33.25791" y="495.38238" x="348.26724" className="map-rect"/>
   <rect id="svg_200" height="9.7285" width="29.638" y="499.68103" x="353.01837" className="map-rect"/>
   <rect id="svg_201" height="8.37104" width="5.88235" y="501.94347" x="348.71973" className="map-rect"/>
   <rect id="svg_202" height="11.7647" width="26.01809" y="496.51361" x="382.43013" className="map-rect"/>
